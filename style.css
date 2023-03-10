@@ -1,0 +1,106 @@
+@import "https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap";
+
+
+:root {
+--note:#FFEEDD;
+--background:#FFD8BE;
+--black:#0e0e0e;
+--button-primary:#766ac3;
+--button-secondary:#ccccff;
+--ghost-white:#F8F7FF;
+--question:#40319f;
+--rand-1: #bed8ff;
+--rand-2: #f2beff;
+--rand-3: #fff9be;
+--rand-4: #cbffbe;
+--rand-5: #d2beff;
+}
+
+* {
+box-sizing:border-box;
+}
+
+body {
+align-items:center;
+background-color:var(--background);
+display:flex;
+flex-direction:column;
+font-family:'Patrick Hand',cursive;
+font-size:16px;
+justify-content:center;
+margin:50px;
+min-height:100vh;
+padding:0;
+touch-action: manipulation;
+}
+
+h1,h2 {
+color:var(--black);
+font-variant:small-caps;
+font-weight:700;
+letter-spacing:2px;
+margin:0 auto;
+max-width:800px;
+text-align:center;
+width:100%
+}
+
+h1 {
+font-size:32px;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+h2 {
+font-size:24px;
+margin-bottom:20px;
+margin-top:0
+}
+
+p {
+color:var(--black);
+font-size:20px;
+font-variant:small-caps;
+letter-spacing:1px;
+margin-bottom:0;
+margin-top:0;
+max-width:450px;
+overflow-wrap:break-word;
+text-align:center;
+width:100%
+}
+
+h4 {
+color:var(--question);
+font-size:32px;
+letter-spacing:2px;
+margin-bottom:20px;
+margin-top:20px;
+max-width:800px;
+text-align:center;
+width:100%
+}
+
+h5 {
+color:var(--black);
+font-size:16px;
+font-variant:small-caps;
+letter-spacing:0;
+margin-bottom:0;
+margin-top:20px;
+max-width:800px;
+text-align:center;
+width:100%
+}
+
+p {
+font-size:.8em;
+font-variant:small-caps;
+font-weight:100;
+margin-bottom:0;
+margin-top:0
+}
+
+
+
+
